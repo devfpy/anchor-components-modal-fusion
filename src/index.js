@@ -1,6 +1,11 @@
+/*
+ * @Author: devfpy
+ * @Date: 2021-08-17 18:48:58
+ * @LastEditTime: 2021-08-17 19:39:10
+ * @LastEditors: devfpy
+ * @Description:
+ */
 import React from 'react'
-import styles from './styles.module.css'
+import ModalComponent from './Modal/index'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { ModalComponent }
